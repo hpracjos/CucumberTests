@@ -10,7 +10,7 @@ import org.junit.Assert;
 
 public class getGreetingsStepDef {
     private static Response response;
-    private static final String BASE_URL = "http://localhost:8083";
+    private static final String BASE_URL = "http://springbootwebapp:8083";
     private static final RequestSpecification request = RestAssured.given();
 
     @Given("User define the Get call")
